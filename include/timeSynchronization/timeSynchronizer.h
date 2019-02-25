@@ -22,7 +22,7 @@ public:
 
     TimeSynchronizer(const TimeSynchronizer&) = delete;
 
-    TimeSynchronizer(TimeSynchronizer&&) = default;
+    TimeSynchronizer(TimeSynchronizer&&) noexcept = default;
 
     TimeSynchronizer& operator=(const TimeSynchronizer&) = delete;
 
